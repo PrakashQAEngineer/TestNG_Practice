@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
- <!--<test name="Test">
+ <test name="Test">
     <classes>
-      <class name="TestNg.UnitedAirlines"/>
-      <class name="TestNg.AirIndia"/>
-      <class name="TestNg.Lufthansa"/>
+     <!--  <class name="TestNg.UnitedAirlines"/>-->
+     <!-- <class name="TestNg.AirIndia"/>-->
+      <!--<class name="TestNg.Lufthansa"/>-->
      
-      <class name="TestNg.Provider"/>
+      <class name="TestNg.Provider">
+		  <methods>
+			  <include name = "Amadeus"/>
+		  </methods>
+      </class>
     </classes>
-  </test>  --> 
+  </test>   
   
   <test name="Login">
 	  <classes>
-		   <class name="TestNg.Login"/>
+		   <class name="TestNg.Login">
+			   <methods>
+				   <exclude name = "desktoplogin"/>
+			   </methods>
+		   </class>>
 	  </classes>
 	  </test>
 </suite> <!-- Suite -->
