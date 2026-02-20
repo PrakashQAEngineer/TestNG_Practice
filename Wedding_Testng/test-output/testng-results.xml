@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="11" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-20T07:40:41 IST" name="Suite" finished-at="2026-02-20T07:40:41 IST" duration-ms="133">
+    <groups>
+    </groups>
+    <test started-at="2026-02-20T07:40:41 IST" name="Test3" finished-at="2026-02-20T07:40:41 IST" duration-ms="133">
+      <class name="testng1.Test2">
+        <test-method signature="test3()[pri:0, instance:testng1.Test2@368247b9]" started-at="2026-02-20T07:40:41 IST" name="test3" finished-at="2026-02-20T07:40:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- testng1.Test2 -->
+      <class name="login.WebLogin">
+        <test-method signature="webLoginAll()[pri:0, instance:login.WebLogin@1e6a3214]" started-at="2026-02-20T07:40:41 IST" name="webLoginAll" finished-at="2026-02-20T07:40:41 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginAll -->
+        <test-method signature="webLoginCrystal()[pri:0, instance:login.WebLogin@1e6a3214]" started-at="2026-02-20T07:40:41 IST" name="webLoginCrystal" finished-at="2026-02-20T07:40:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginCrystal -->
+        <test-method signature="webLoginMundo()[pri:0, instance:login.WebLogin@1e6a3214]" started-at="2026-02-20T07:40:41 IST" name="webLoginMundo" finished-at="2026-02-20T07:40:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginMundo -->
+        <test-method signature="webLoginWorldAirtFare()[pri:0, instance:login.WebLogin@1e6a3214]" started-at="2026-02-20T07:40:41 IST" name="webLoginWorldAirtFare" finished-at="2026-02-20T07:40:41 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginWorldAirtFare -->
+      </class> <!-- login.WebLogin -->
+      <class name="login.MobileLoginPage">
+        <test-method signature="mobileLoginMundo()[pri:0, instance:login.MobileLoginPage@20140db9]" started-at="2026-02-20T07:40:41 IST" name="mobileLoginMundo" finished-at="2026-02-20T07:40:41 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLoginMundo -->
+      </class> <!-- login.MobileLoginPage -->
+      <class name="testNG2.test3">
+        <test-method signature="test_3()[pri:0, instance:testNG2.test3@229c6181]" started-at="2026-02-20T07:40:41 IST" name="test_3" finished-at="2026-02-20T07:40:41 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_3 -->
+        <test-method signature="test_4()[pri:0, instance:testNG2.test3@229c6181]" started-at="2026-02-20T07:40:41 IST" name="test_4" finished-at="2026-02-20T07:40:41 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_4 -->
+      </class> <!-- testNG2.test3 -->
+      <class name="testng1.Test1">
+        <test-method signature="testData()[pri:0, instance:testng1.Test1@1a6d8329]" started-at="2026-02-20T07:40:41 IST" name="testData" finished-at="2026-02-20T07:40:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testData -->
+        <test-method signature="testData2()[pri:0, instance:testng1.Test1@1a6d8329]" started-at="2026-02-20T07:40:41 IST" name="testData2" finished-at="2026-02-20T07:40:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testData2 -->
+      </class> <!-- testng1.Test1 -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>
